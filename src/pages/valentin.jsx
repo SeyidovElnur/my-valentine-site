@@ -1,17 +1,19 @@
 import React, { useState } from 'react';
 import "./valentin.css";
+import heartImg from '../img/heart.jpg';
+import zaykaImg from '../img/zayka.jpg';
 
 function Valentin() {
   const [step, setStep] = useState(0);
   const [isVisible, setIsVisible] = useState(true); // Управляет видимостью всей группы
 
   const steps = [
-    { img: "../src/img/heart.jpg", text: "Click on the heart", size: 150 },
-    { img: "../src/img/heart.jpg", text: "Again", size: 200 },
-    { img: "../src/img/heart.jpg", text: "One more time, please...", size: 280 },
+    { img: heartImg, text: "Click on the heart", size: 150 },
+    { img: heartImg, text: "Again", size: 200 },
+    { img: heartImg, text: "One more time, please...", size: 280 },
     
     { 
-      img: "../src/img/zayka.jpg", 
+      img: zaykaImg, 
       // Используем массив или фрагмент для переноса строки
       text: (
         <>
