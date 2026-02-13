@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Чтобы паддинги не ломали размеры */
+}
+
+.valentin-page {
+    background-color: #ffc1cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Arial', sans-serif;
+}
+
+.valentin-container {
+    width: 332px;
+    height: 452px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+}
+
+
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px; 
+}
+
+
+.heart-click {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 100%;
+    transition: opacity 0.8s ease-in-out; 
+}
+
+.heart-img {
+    height: auto;
+    transition: width 0.4s ease-in-out;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
+.valentin-text {
+    font-size: 30px;
+    color: #d63384;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
